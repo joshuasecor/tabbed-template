@@ -3,6 +3,10 @@ body {
 	min-width: 1024px;
 }
 
+
+
+/* Hero Header */
+
 .hero {
 	position: relative;
 	height: 300px;
@@ -36,7 +40,7 @@ body {
 
 .right-border {
 	border-right: solid #e6e6e6 1px;
-	padding-right: 20px;
+	padding-right: 15px;
 }
 
 .hero-meta-page {
@@ -47,7 +51,7 @@ body {
 	vertical-align: middle;
 	margin-left: 30px;
 	float: left;
-	margin-right: 20px;
+	margin-right: 15px;
 }
 
 .page-title {
@@ -55,8 +59,8 @@ body {
 	text-transform: uppercase;
 	color: #fff;
 	font-weight: 500;
-	font-size: 44px;
-	line-height: 46px;
+	font-size: 32px;
+	line-height: 36px;
 	text-align: right;
 	font-family: 'Oswald', sans-serif;
 }
@@ -64,14 +68,14 @@ body {
 .page-creator {
 	display: block;
 	color: #e6e6e6;
-	font-size: 13px;
+	font-size: 12px;
 	text-align: right;
 	font-family: 'Raleway', sans-serif;
 }
 
 .profile-image {
-	height: 64px;
-	width: 64px;
+	height: 52px;
+	width: 52px;
 	overflow: hidden;
 	border-radius: 10px;
 	border: 2px solid #fff;
@@ -83,7 +87,7 @@ body {
 
 .hero-meta-count {
 	float: left;
-	margin-left: 20px;
+	margin-left: 15px;
 }
 
 .meta-label {
@@ -96,10 +100,70 @@ body {
 }
 
 .icon-star img {
-	height: 44px;
+	height: 34px;
 	float: left;
 	margin-right: 5px;
 }
+
+
+
+/* Tabs and Discussions */
+
+.nav-tabs, .nav-tabs a {
+	border: none!important;
+	border-bottom-width: thin;
+	padding: 8px 0 0;
+}
+
+.nav-tabs, .nav-tabs a:hover {
+	background: none!important;
+}
+
+.nav-tabs a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	color: #808080;
+	padding: 10px 0 !important;
+	margin-right: 50px !important;
+}
+
+.nav-tabs .active a {
+	font-weight: 700;
+	color: #000!important;
+	border-bottom: solid gold 4px!important;
+}
+
+.tab-content {
+	padding: 20px 0;
+}
+
+.main-content {
+	font-family: 'Raleway', sans-serif;
+	border-top: solid #bfbfbf 1px;
+}
+
+.media-large {
+	height: 400px;
+	overflow: hidden;
+}
+
+.main-content img {
+	width: 100%;
+	vertical-align: middle;
+  position: absolute;
+  top: -100%; left: 0; right: 0; bottom: -100%;
+  margin: auto;
+  z-index: 0;
+}
+
+
+
+.discussions {
+	padding: 20px 0;
+}
+
+
+
 
 
 
