@@ -142,27 +142,31 @@ body {
 	border-top: solid #bfbfbf 1px;
 }
 
+.col-md-12, .col-md-6, .col-xs-6 {
+	padding: 0 15px 15px 0 !important;
+}
+
+.gray-border {
+  border: 1px solid #bfbfbf;
+  overflow: hidden;
+}
+
 .media-large {
 	height: 400px;
-	overflow: hidden;
-	background-clip: padding-box;
-  border: 5px solid transparent;
+	width: auto;
 }
 
 .media-medium {
 	height: 200px;
-	overflow: hidden;
-  background-clip: padding-box;
-  border: 5px solid transparent;
+	width: auto;
 }
 
-.main-content img {
+.media-large, .media-medium {
+	background-size: cover !important;
+}
+
+.media-large img, .media-medium img {
 	width: 100%;
-	vertical-align: middle;
-  position: absolute;
-  top: -100%; left: 0; right: 0; bottom: -100%;
-  margin: auto;
-  z-index: 0;
 }
 
 .discussions {
