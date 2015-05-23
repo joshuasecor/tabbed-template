@@ -145,6 +145,15 @@ body {
 .media-large {
 	height: 400px;
 	overflow: hidden;
+	background-clip: padding-box;
+  border: 5px solid transparent;
+}
+
+.media-medium {
+	height: 200px;
+	overflow: hidden;
+  background-clip: padding-box;
+  border: 5px solid transparent;
 }
 
 .main-content img {
@@ -155,8 +164,6 @@ body {
   margin: auto;
   z-index: 0;
 }
-
-
 
 .discussions {
 	padding: 20px 0;
